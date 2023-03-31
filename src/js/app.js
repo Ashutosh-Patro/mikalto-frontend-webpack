@@ -32,6 +32,14 @@ function removeDropdown() {
     navBar.style.opacity = '1'
 }
 
+document.querySelector('#next-button').addEventListener('click', () => {
+    next()
+})
+
+document.querySelector('#previous-button').addEventListener('click', () => {
+    previous()
+})
+
 function next() {
     document.querySelector('.dulex-room-image').classList.toggle('hidden')
     document.querySelector('.standard-room-image').classList.toggle('hidden')
