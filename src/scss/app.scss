@@ -1,0 +1,48 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* CSS print */
+@import 'base/print';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Mixins, helpers and functions */
+@import 'base/mixins';
+
+/* Vendor */
+
+/* Components */
+
+/* Browser specific styles */
+@import 'dirty/hacks';
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.form-bg-image {
+    background-size: cover;
+}
+
+.bg-creme-color {
+    background-color: #F9F6EE;
+}
+
+.blue-color {
+    background-color: #0a205c;
+}
+
+.hello-new-you-bg-image {
+    background: url(../images/design/new-you-section/hello-new-you-pic-bg.webp) no-repeat;
+    background-size: cover;
+}
